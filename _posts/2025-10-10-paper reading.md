@@ -23,5 +23,5 @@ UniMRSeg 对于所有可能的模态输入完全共享 100% 的参数。完整�
 
 首先使用跨模态重建作为 pretext task。UniMRSeg 同时使用了全局和局部的掩码机制。然后，引入了一个 channel-wise 的模态 shuffling 操作，去破坏输入和重建模态之间的联系。进一步地，使用对比学习来完成特征层面的补偿机制。具体来说，UniMRSeg 将来自同一样本中的完整的和随机缺失的模态作为正样本对，那些来自其他样本的作为负样本对。为了增强对于分割任务的表征继承，UniMRSeg 联合优化空间距离度量和目标分割，以引导特征聚集到有益于分割结果的方向上。UniMRSeg 设计了一个轻量化的反向注意力 adapter ，嵌入到 3d SwinTransformer 中来捕获模态间高相应的互注意力模式，通过添加特征层面的一致性约束，确保 adapter 能够感知在任何模态缺失组合下，固有的部分表示缺陷。最后，UniMRSeg 在分割一致性约束下微调，输出的完整模态所表征的知识会被蒸馏到所有模态缺失组合中。
 
-![img-description](pictures\UniMRSeg.png)
+![img-description](pictures/UniMRSeg.png)
 _UniMRSeg 架构图_
