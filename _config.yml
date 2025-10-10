@@ -117,7 +117,6 @@ comments:
   utterances:
     repo: wincharm001/wincharm001.github.io # <gh-username>/<repo>
     issue-term: pathname # < url | pathname | title | ...>
-    label: 💬
   # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
