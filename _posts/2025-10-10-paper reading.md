@@ -1,16 +1,15 @@
 ---
 title: 多模态医学图像中的模态缺失问题
 date: 2025-10-10 22:03 +/-TTTT
-categories: [Medical Image, Multi-modal, Segmentation]
+categories: [Medical Image Segmentation, Multi-modal]
 tags: [new papers sharing]
 description: 这是一篇 arxiv 上最新的关于多模态医学图像分割任务中，解决模态缺失问题的研究。
 math: True
-comments: True
 ---
 
 ### UniMRSeg: Unified Modality-Relax Segmentation via Hierarhical Self-Supervised Compensation
 
-link: https://arxiv.org/abs/2509.16170v1
+link: [https://arxiv.org/abs/2509.16170v1]
 
 在真实应用场景下，由于传感器问题、低质量数据以及临床限制等等因素，可能会导致输入模态缺失的问题。最近在解决模态缺失问题的研究中，主要落脚到两个挑战。
 
