@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 
 title: Ziquan Liu # the main title
 
-tagline: nothing # it will display as the subtitle
+tagline: A new learner for something interesting # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.

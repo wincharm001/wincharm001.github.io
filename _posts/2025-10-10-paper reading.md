@@ -5,6 +5,7 @@ categories: [Medical Image, Multi-modal, Segmentation]
 tags: [new papers sharing]
 description: 这是一篇 arxiv 上最新的关于多模态医学图像分割任务中，解决模态缺失问题的研究。
 math: True
+comments: True
 ---
 
 ### UniMRSeg: Unified Modality-Relax Segmentation via Hierarhical Self-Supervised Compensation
